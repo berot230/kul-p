@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 Kulüpler Kupası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏆 2025 Kulüpler Kupası</h1>
+        <nav>
+            <ul>
+                <li><a href="#teams">Takımlar</a></li>
+                <li><a href="#fixtures">Maç Programı</a></li>
+                <li><a href="#results">Sonuçlar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="teams">
+        <h2>Katılan Takımlar</h2>
+        <ul>
+            <li>Real Madrid</li>
+            <li>Manchester City</li>
+            <li>Fluminense</li>
+            <li>Al Ahly</li>
+            <li>Urawa Red Diamonds</li>
+            <li>Club León</li>
+        </ul>
+    </section>
+
+    <section id="fixtures">
+        <h2>Maç Programı</h2>
+        <ul>
+            <li>10 Temmuz: Real Madrid vs Club León</li>
+            <li>12 Temmuz: Manchester City vs Al Ahly</li>
+            <li>14 Temmuz: Fluminense vs Urawa Red Diamonds</li>
+        </ul>
+    </section>
+
+    <section id="results">
+        <h2>Sonuçlar</h2>
+        <ul id="results-list">
+            <li>Henüz sonuç yok.</li>
+        </ul>
+        <button onclick="addResult()">Sonuç Ekle (Demo)</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Kulüpler Kupası Resmi Sitesi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
